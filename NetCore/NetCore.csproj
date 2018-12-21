@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\NetFramework\Assembly.cs" Link="Assembly.cs" />
+    <Compile Include="..\NetFramework\CA1020.cs" Link="CA1020.cs" />
+    <Compile Include="..\NetFramework\CA1032Exception.cs" Link="CA1032Exception.cs" />
+    <Compile Include="..\NetFramework\CA1710.cs" Link="CA1710.cs" />
+    <Compile Include="..\NetFramework\CA1711Collection.cs" Link="CA1711Collection.cs" />
+    <Compile Include="..\NetFramework\Ca1722Exception.cs" Link="Ca1722Exception.cs" />
+    <Compile Include="..\NetFramework\CA2237Exception.cs" Link="CA2237Exception.cs" />
+    <Compile Include="..\NetFramework\Methods.cs" Link="Methods.cs" />
+    <Compile Include="..\NetFramework\Properties.cs" Link="Properties.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
